@@ -81,3 +81,10 @@ table th {
 table tbody tr:hover {
   background-color: rgb(139 170 206);
 }
+@media (max-width: 1268px) {
+  #Container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+
